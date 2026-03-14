@@ -21,7 +21,7 @@ export function Navbar() {
       <div className="container flex h-16 max-w-screen-2xl items-center px-4 md:px-8 mx-auto">
         <div className="mr-8 hidden md:flex">
           <Link to="/" className="mr-6 flex items-center space-x-2">
-            <span className="font-bold text-xl tracking-tight bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">John Doe</span>
+            <span className="font-bold text-xl tracking-tight bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">Hoang Nam</span>
           </Link>
           <nav className="flex items-center space-x-6 text-sm font-medium">
             {navLinks.map((link) => (
@@ -31,7 +31,7 @@ export function Navbar() {
             ))}
           </nav>
         </div>
-        
+
         {/* Mobile Nav Toggle */}
         <div className="flex flex-1 items-center justify-between md:justify-end">
           <div className="flex items-center md:hidden">
@@ -64,9 +64,9 @@ export function Navbar() {
           >
             <nav className="flex flex-col space-y-4 p-4 text-center">
               {navLinks.map((link) => (
-                <a 
-                  key={link.name} 
-                  href={link.path} 
+                <a
+                  key={link.name}
+                  href={link.path}
                   className="font-medium hover:text-primary transition-colors py-2"
                   onClick={() => setIsOpen(false)}
                 >

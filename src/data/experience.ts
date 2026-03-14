@@ -1,16 +1,16 @@
 export const experience = [
   {
     id: 1,
-    role: "Senior Frontend Engineer",
-    company: "Tech Corp",
-    duration: "2021 - Present",
-    description: "Led the front-end team to build scalable enterprise apps.",
+    role: "Software Engineer",
+    company: "Katsura Vietnam",
+    duration: "2024 - Present",
+    description: "Implement the development of internal management systems and tasks within offshore projects.",
   },
   {
     id: 2,
-    role: "Frontend Developer",
-    company: "Web Solutions",
-    duration: "2018 - 2021",
-    description: "Developed and maintained multiple client websites.",
+    role: "Sofware Engineer Intern",
+    company: "Nine Point",
+    duration: "2022",
+    description: "Internship at Nine Point",
   },
 ];
